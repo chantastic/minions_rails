@@ -24,7 +24,7 @@ namespace :minions_rails do
   end
 
   task :variablize_sub_xsmall do
-    sh "for file in #{scss_dir}/*-!xs.scss; do sed -i '' 's/319px/\#\{\$xs -1\}px/' ${file}; done"
+    sh "for file in #{scss_dir}/*-!xs.scss; do sed -i '' 's/319px/\#\{\$xs - 1\}px/' ${file}; done"
   end
 
   task :variablize_xsmall do
@@ -32,7 +32,7 @@ namespace :minions_rails do
   end
 
   task :variablize_sub_small do
-    sh "for file in #{scss_dir}/*-!sm.scss; do sed -i '' 's/543px/\#\{\$sm -1\}px/' ${file}; done"
+    sh "for file in #{scss_dir}/*-!sm.scss; do sed -i '' 's/543px/\#\{\$sm - 1\}px/' ${file}; done"
   end
 
   task :variablize_small do
@@ -40,7 +40,7 @@ namespace :minions_rails do
   end
 
   task :variablize_sub_medium do
-    sh "for file in #{scss_dir}/*-!md.scss; do sed -i '' 's/767px/\#\{\$md -1\}px/' ${file}; done"
+    sh "for file in #{scss_dir}/*-!md.scss; do sed -i '' 's/767px/\#\{\$md - 1\}px/' ${file}; done"
   end
 
   task :variablize_medium do
@@ -48,7 +48,7 @@ namespace :minions_rails do
   end
 
   task :variablize_sub_large do
-    sh "for file in #{scss_dir}/*-!lg.scss; do sed -i '' 's/991px/\#\{\$lg -1\}px/' ${file}; done"
+    sh "for file in #{scss_dir}/*-!lg.scss; do sed -i '' 's/991px/\#\{\$lg - 1\}px/' ${file}; done"
   end
 
   task :variablize_large do
@@ -56,7 +56,7 @@ namespace :minions_rails do
   end
 
   task :variablize_sub_xlarge do
-    sh "for file in #{scss_dir}/*-!xl.scss; do sed -i '' 's/1199px/\#\{\$xl -1\}px/' ${file}; done"
+    sh "for file in #{scss_dir}/*-!xl.scss; do sed -i '' 's/1199px/\#\{\$xl - 1\}px/' ${file}; done"
   end
 
   task :variablize_xlarge do

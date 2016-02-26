@@ -1,6 +1,6 @@
 /*! minions.css | MIT License | https://github.com/chantastic/minions.css */
 
-@media (max-width: #{$md -1}px) {
+@media (max-width: #{$md - 1}px) {
   .v-h\@\!md { visibility: hidden; }
   .v-v\@\!md { visibility: visible; }
 }

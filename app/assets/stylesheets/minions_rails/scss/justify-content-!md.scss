@@ -1,6 +1,6 @@
 /*! minions.css | MIT License | https://github.com/chantastic/minions.css */
 
-@media (max-width: #{$md -1}px) {
+@media (max-width: #{$md - 1}px) {
   .jc-c\@\!md  { justify-content: center }
   .jc-fe\@\!md { justify-content: flex-end }
   .jc-fs\@\!md { justify-content: flex-start }
