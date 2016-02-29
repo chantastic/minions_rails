@@ -42,7 +42,7 @@ For more information about [minions.css](https://github.com/chantastic/minions.c
 ### CSS (development)
 This is an easy setup to get you up and running quickly. But it's a lot of CSS to load in production.  
 
-Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/css_development.css
+[Working example](https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/css_development.css)
 
 * **Require** `minions_rails/development` in your `application.css` file:
 
@@ -59,7 +59,7 @@ This is what a production setup might look like. Note that this is a `.scss` fil
 
 I still consider it a CSS setup because you're using the raw CSS minions. These files aren't dynamic.  
 
-Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/css_production.scss
+[Working example](https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/css_production.scss)
 
 * **Create** a `custom-minions.scss` file
   + **Import** any and all minions files from `minions_rails/css/`
@@ -68,12 +68,12 @@ Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/
 /* custom-minions.scss */
 
 @import "minions_rails/css/padding";
-@import "minions_rails/css/padding-mn"
-@import "minions_rails/css/padding-xs"
-@import "minions_rails/css/padding-sm"
-@import "minions_rails/css/padding-md"
-@import "minions_rails/css/padding-lg"
-@import "minions_rails/css/padding-xl"
+@import "minions_rails/css/padding-mn";
+@import "minions_rails/css/padding-xs";
+@import "minions_rails/css/padding-sm";
+@import "minions_rails/css/padding-md";
+@import "minions_rails/css/padding-lg";
+@import "minions_rails/css/padding-xl";
 
 /* ... so on and so forth. */
 ```
@@ -83,7 +83,7 @@ Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/
 ### SCSS (development)
 This is an easy setup to get you up and running with custom breakpoints. But it's a lot of CSS to load in production.  
 
-Example: https://github.com/chantastic/minions_rails/blob/master/app/assets/stylesheets/minions_rails/development-scss.scss
+[Working example](https://github.com/chantastic/minions_rails/blob/master/app/assets/stylesheets/minions_rails/development-scss.scss)
 
 * **Create** a `custom-minions.scss` file
   + **Assign** expected breakpoint variables `$xl`, `$lg`, `$md`, `$sm`, and `$xs`
@@ -107,7 +107,7 @@ $xs:  480;
 ### SCSS (production)
 This is the most customizable setup. You can control both the minions you use and the breakpoints they operate on.
 
-Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/scss_production.scss
+[Working example](https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/scss_production.scss)
 
 * **Create** a `custom-minions.scss` file
   + **Assign** expected breakpoint variables `$xl`, `$lg`, `$md`, `$sm`, and `$xs`
