@@ -40,15 +40,14 @@ For more information about [minions.css](https://github.com/chantastic/minions.c
 ## Usage
 
 ### CSS (development)
+This is an easy setup to get you up and running quickly. But it's a lot of CSS to load in production.  
+
+Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/css_development.css
+
 * **Require** `minions_rails/development` in your `application.css` file:
 
 ```css
-/*
- *  application.css
- *
- *= require "minions_rails/development"
- *
- */
+*= require "minions_rails/development"
 ```
 
 **[DO NOT USE THIS IN PRODUCTION](#important).**
@@ -56,29 +55,35 @@ For more information about [minions.css](https://github.com/chantastic/minions.c
 ---
 
 ### CSS (production)
-* **Require** All needed files into `application.css` from `minions_rails/css/`
+This is what a production setup might look like. Note that this is a `.scss` file. You could use sprockets if you like, but it'll result in a bunch of HTTP requests in development. They add up, if you're using a lot of minions.  
 
-```css
-/*
- *  application.css
- *
- *= require "minions_rails/css/padding"
- *= require "minions_rails/css/padding-mn"
- *= require "minions_rails/css/padding-xs"
- *= require "minions_rails/css/padding-sm"
- *= require "minions_rails/css/padding-md"
- *= require "minions_rails/css/padding-lg"
- *= require "minions_rails/css/padding-xl"
- *
- * ... all the other ones you need
- */
+I still consider it a CSS setup because you're using the raw CSS minions. These files aren't dynamic.  
+
+Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/css_production.scss
+
+* **Create** a `custom-minions.scss` file
+  + **Import** any and all minions files from `minions_rails/css/`
+
+```scss
+/* custom-minions.scss */
+
+@import "minions_rails/css/padding";
+@import "minions_rails/css/padding-mn"
+@import "minions_rails/css/padding-xs"
+@import "minions_rails/css/padding-sm"
+@import "minions_rails/css/padding-md"
+@import "minions_rails/css/padding-lg"
+@import "minions_rails/css/padding-xl"
+
+/* ... so on and so forth. */
 ```
-
-*Alternatively*, you could create a `.scss` file and use `@import`. This will concatenate included files in development. This could dramatically imrove your development experience, depending on how many minions classses you're using.
 
 ---
 
 ### SCSS (development)
+This is an easy setup to get you up and running with custom breakpoints. But it's a lot of CSS to load in production.  
+
+Example: https://github.com/chantastic/minions_rails/blob/master/app/assets/stylesheets/minions_rails/development-scss.scss
 
 * **Create** a `custom-minions.scss` file
   + **Assign** expected breakpoint variables `$xl`, `$lg`, `$md`, `$sm`, and `$xs`
@@ -100,25 +105,17 @@ $xs:  480;
 ---
 
 ### SCSS (production)
+This is the most customizable setup. You can control both the minions you use and the breakpoints they operate on.
+
+Example: https://github.com/chantastic/minions_rails/blob/master/test/dummy/app/assets/stylesheets/scss_production.scss
 
 * **Create** a `custom-minions.scss` file
   + **Assign** expected breakpoint variables `$xl`, `$lg`, `$md`, `$sm`, and `$xs`
   + **Import** any and all minions files from `minions_rails/scss/`
 * **Require** `custom-minions` into your `application.css` file
 
-```css
-/*
- *  application.css
- *
- *= require "custom-minions"
- *
- */
-```
-
 ```scss
-/*
- * custom-minions.scss
- */
+/* custom-minions.scss */
 
 $xl: 1200;
 $lg:  960;
