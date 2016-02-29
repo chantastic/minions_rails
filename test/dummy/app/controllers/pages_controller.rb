@@ -13,4 +13,8 @@ class PagesController < ApplicationController
   def scss_development
     render layout: "scss_development"
   end
+
+  def scss_production
+    render layout: "scss_production"
+  end
 end
