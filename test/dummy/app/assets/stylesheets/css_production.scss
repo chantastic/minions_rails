@@ -1,0 +1,343 @@
+/*
+ * You could use sprockets here but it'll really hamper page loads as you add more minions.
+ * Using SASS imports will take a second or to the first time you compile the file but will run from cash after that.
+ * Consiquently, you might have to run `rake tmp:clear` after updating your manifest.
+ */
+
+@import "minions_rails/css/align-items_";
+
+@import "minions_rails/css/align-items";
+@import "minions_rails/css/align-items-mn";
+@import "minions_rails/css/align-items-xs";
+@import "minions_rails/css/align-items-sm";
+@import "minions_rails/css/align-items-md";
+@import "minions_rails/css/align-items-lg";
+@import "minions_rails/css/align-items-xl";
+@import "minions_rails/css/align-items-!xl";
+@import "minions_rails/css/align-items-!lg";
+@import "minions_rails/css/align-items-!md";
+@import "minions_rails/css/align-items-!sm";
+@import "minions_rails/css/align-items-!xs";
+
+@import "minions_rails/css/align-self";
+@import "minions_rails/css/align-self-mn";
+@import "minions_rails/css/align-self-xs";
+@import "minions_rails/css/align-self-sm";
+@import "minions_rails/css/align-self-md";
+@import "minions_rails/css/align-self-lg";
+@import "minions_rails/css/align-self-xl";
+@import "minions_rails/css/align-self-!xl";
+@import "minions_rails/css/align-self-!lg";
+@import "minions_rails/css/align-self-!md";
+@import "minions_rails/css/align-self-!sm";
+@import "minions_rails/css/align-self-!xs";
+
+@import "minions_rails/css/background-color_";
+
+@import "minions_rails/css/background-color";
+@import "minions_rails/css/background-color-mn";
+@import "minions_rails/css/background-color-xs";
+@import "minions_rails/css/background-color-sm";
+@import "minions_rails/css/background-color-md";
+@import "minions_rails/css/background-color-lg";
+@import "minions_rails/css/background-color-xl";
+@import "minions_rails/css/background-color-!xl";
+@import "minions_rails/css/background-color-!lg";
+@import "minions_rails/css/background-color-!md";
+@import "minions_rails/css/background-color-!sm";
+@import "minions_rails/css/background-color-!xs";
+
+@import "minions_rails/css/background-color_lightness";
+@import "minions_rails/css/background-color__lightness";
+@import "minions_rails/css/background-color_lightness-mn";
+@import "minions_rails/css/background-color_lightness-xs";
+@import "minions_rails/css/background-color_lightness-sm";
+@import "minions_rails/css/background-color_lightness-md";
+@import "minions_rails/css/background-color_lightness-lg";
+@import "minions_rails/css/background-color_lightness-xl";
+@import "minions_rails/css/background-color_lightness-!xl";
+@import "minions_rails/css/background-color_lightness-!lg";
+@import "minions_rails/css/background-color_lightness-!md";
+@import "minions_rails/css/background-color_lightness-!sm";
+@import "minions_rails/css/background-color_lightness-!xs";
+
+@import "minions_rails/css/border-color";
+
+@import "minions_rails/css/border-color_lightness";
+
+@import "minions_rails/css/border-radius_";
+
+@import "minions_rails/css/border-radius";
+
+@import "minions_rails/css/border-width";
+@import "minions_rails/css/border-width-mn";
+@import "minions_rails/css/border-width-xs";
+@import "minions_rails/css/border-width-sm";
+@import "minions_rails/css/border-width-md";
+@import "minions_rails/css/border-width-lg";
+@import "minions_rails/css/border-width-xl";
+@import "minions_rails/css/border-width-!xl";
+@import "minions_rails/css/border-width-!lg";
+@import "minions_rails/css/border-width-!md";
+@import "minions_rails/css/border-width-!sm";
+@import "minions_rails/css/border-width-!xs";
+
+@import "minions_rails/css/bottom";
+
+@import "minions_rails/css/color";
+@import "minions_rails/css/color-mn";
+@import "minions_rails/css/color-xs";
+@import "minions_rails/css/color-sm";
+@import "minions_rails/css/color-md";
+@import "minions_rails/css/color-lg";
+@import "minions_rails/css/color-xl";
+@import "minions_rails/css/color-!lg";
+@import "minions_rails/css/color-!md";
+@import "minions_rails/css/color-!sm";
+@import "minions_rails/css/color-!xl";
+@import "minions_rails/css/color-!xs";
+
+@import "minions_rails/css/cursor";
+
+@import "minions_rails/css/color_lightness";
+@import "minions_rails/css/color_lightness-mn";
+@import "minions_rails/css/color_lightness-xs";
+@import "minions_rails/css/color_lightness-sm";
+@import "minions_rails/css/color_lightness-md";
+@import "minions_rails/css/color_lightness-lg";
+@import "minions_rails/css/color_lightness-xl";
+@import "minions_rails/css/color_lightness-!xl";
+@import "minions_rails/css/color_lightness-!lg";
+@import "minions_rails/css/color_lightness-!md";
+@import "minions_rails/css/color_lightness-!sm";
+@import "minions_rails/css/color_lightness-!xs";
+
+@import "minions_rails/css/display";
+@import "minions_rails/css/display-mn";
+@import "minions_rails/css/display-xs";
+@import "minions_rails/css/display-sm";
+@import "minions_rails/css/display-md";
+@import "minions_rails/css/display-lg";
+@import "minions_rails/css/display-xl";
+@import "minions_rails/css/display-!xl";
+@import "minions_rails/css/display-!lg";
+@import "minions_rails/css/display-!md";
+@import "minions_rails/css/display-!sm";
+@import "minions_rails/css/display-!xs";
+
+@import "minions_rails/css/flex_";
+
+@import "minions_rails/css/flex";
+@import "minions_rails/css/flex-mn";
+@import "minions_rails/css/flex-xs";
+@import "minions_rails/css/flex-sm";
+@import "minions_rails/css/flex-md";
+@import "minions_rails/css/flex-lg";
+@import "minions_rails/css/flex-xl";
+@import "minions_rails/css/flex-!xl";
+@import "minions_rails/css/flex-!lg";
+@import "minions_rails/css/flex-!md";
+@import "minions_rails/css/flex-!sm";
+@import "minions_rails/css/flex-!xs";
+
+@import "minions_rails/css/flex-wrap";
+@import "minions_rails/css/flex-wrap-mn";
+@import "minions_rails/css/flex-wrap-xs";
+@import "minions_rails/css/flex-wrap-sm";
+@import "minions_rails/css/flex-wrap-md";
+@import "minions_rails/css/flex-wrap-lg";
+@import "minions_rails/css/flex-wrap-xl";
+
+@import "minions_rails/css/float_";
+
+@import "minions_rails/css/float";
+@import "minions_rails/css/float-mn";
+@import "minions_rails/css/float-xs";
+@import "minions_rails/css/float-sm";
+@import "minions_rails/css/float-md";
+@import "minions_rails/css/float-lg";
+@import "minions_rails/css/float-xl";
+@import "minions_rails/css/float-!xl";
+@import "minions_rails/css/float-!lg";
+@import "minions_rails/css/float-!md";
+@import "minions_rails/css/float-!sm";
+@import "minions_rails/css/float-!xs";
+
+@import "minions_rails/css/font-size";
+@import "minions_rails/css/font-size-mn";
+@import "minions_rails/css/font-size-xs";
+@import "minions_rails/css/font-size-sm";
+@import "minions_rails/css/font-size-md";
+@import "minions_rails/css/font-size-lg";
+@import "minions_rails/css/font-size-xl";
+@import "minions_rails/css/font-size-!xl";
+@import "minions_rails/css/font-size-!lg";
+@import "minions_rails/css/font-size-!md";
+@import "minions_rails/css/font-size-!sm";
+@import "minions_rails/css/font-size-!xs";
+
+@import "minions_rails/css/font-weight";
+
+@import "minions_rails/css/justify-content";
+@import "minions_rails/css/justify-content-mn";
+@import "minions_rails/css/justify-content-xs";
+@import "minions_rails/css/justify-content-sm";
+@import "minions_rails/css/justify-content-md";
+@import "minions_rails/css/justify-content-lg";
+@import "minions_rails/css/justify-content-xl";
+@import "minions_rails/css/justify-content-!xl";
+@import "minions_rails/css/justify-content-!lg";
+@import "minions_rails/css/justify-content-!md";
+@import "minions_rails/css/justify-content-!sm";
+@import "minions_rails/css/justify-content-!xs";
+
+@import "minions_rails/css/left";
+
+@import "minions_rails/css/line-height";
+
+@import "minions_rails/css/list-style-type";
+
+@import "minions_rails/css/margin_";
+
+@import "minions_rails/css/margin";
+@import "minions_rails/css/margin-mn";
+@import "minions_rails/css/margin-xs";
+@import "minions_rails/css/margin-sm";
+@import "minions_rails/css/margin-md";
+@import "minions_rails/css/margin-lg";
+@import "minions_rails/css/margin-xl";
+@import "minions_rails/css/margin-!xl";
+@import "minions_rails/css/margin-!lg";
+@import "minions_rails/css/margin-!md";
+@import "minions_rails/css/margin-!sm";
+@import "minions_rails/css/margin-!xs";
+
+@import "minions_rails/css/margin_first-child";
+
+@import "minions_rails/css/opacity";
+@import "minions_rails/css/opacity-mn";
+@import "minions_rails/css/opacity-xs";
+@import "minions_rails/css/opacity-sm";
+@import "minions_rails/css/opacity-md";
+@import "minions_rails/css/opacity-lg";
+@import "minions_rails/css/opacity-xl";
+@import "minions_rails/css/opacity-!xl";
+@import "minions_rails/css/opacity-!lg";
+@import "minions_rails/css/opacity-!md";
+@import "minions_rails/css/opacity-!sm";
+@import "minions_rails/css/opacity-!xs";
+
+@import "minions_rails/css/order";
+@import "minions_rails/css/order-mn";
+@import "minions_rails/css/order-xs";
+@import "minions_rails/css/order-sm";
+@import "minions_rails/css/order-md";
+@import "minions_rails/css/order-lg";
+@import "minions_rails/css/order-xl";
+@import "minions_rails/css/order-!xl";
+@import "minions_rails/css/order-!lg";
+@import "minions_rails/css/order-!md";
+@import "minions_rails/css/order-!sm";
+@import "minions_rails/css/order-!xs";
+
+@import "minions_rails/css/overflow";
+@import "minions_rails/css/overflow-mn";
+@import "minions_rails/css/overflow-xs";
+@import "minions_rails/css/overflow-sm";
+@import "minions_rails/css/overflow-md";
+@import "minions_rails/css/overflow-lg";
+@import "minions_rails/css/overflow-xl";
+@import "minions_rails/css/overflow-!xl";
+@import "minions_rails/css/overflow-!lg";
+@import "minions_rails/css/overflow-!md";
+@import "minions_rails/css/overflow-!sm";
+@import "minions_rails/css/overflow-!xs";
+
+@import "minions_rails/css/padding_";
+
+@import "minions_rails/css/padding";
+@import "minions_rails/css/padding-mn";
+@import "minions_rails/css/padding-xs";
+@import "minions_rails/css/padding-sm";
+@import "minions_rails/css/padding-md";
+@import "minions_rails/css/padding-lg";
+@import "minions_rails/css/padding-xl";
+@import "minions_rails/css/padding-!xl";
+@import "minions_rails/css/padding-!lg";
+@import "minions_rails/css/padding-!md";
+@import "minions_rails/css/padding-!sm";
+@import "minions_rails/css/padding-!xs";
+
+@import "minions_rails/css/padding-important";
+
+@import "minions_rails/css/position";
+@import "minions_rails/css/position-mn";
+@import "minions_rails/css/position-xs";
+@import "minions_rails/css/position-sm";
+@import "minions_rails/css/position-md";
+@import "minions_rails/css/position-lg";
+@import "minions_rails/css/position-xl";
+@import "minions_rails/css/position-!xl";
+@import "minions_rails/css/position-!lg";
+@import "minions_rails/css/position-!md";
+@import "minions_rails/css/position-!sm";
+@import "minions_rails/css/position-!xs";
+
+@import "minions_rails/css/right";
+
+@import "minions_rails/css/text-align";
+@import "minions_rails/css/text-align-mn";
+@import "minions_rails/css/text-align-xs";
+@import "minions_rails/css/text-align-sm";
+@import "minions_rails/css/text-align-md";
+@import "minions_rails/css/text-align-lg";
+@import "minions_rails/css/text-align-xl";
+@import "minions_rails/css/text-align-!xl";
+@import "minions_rails/css/text-align-!lg";
+@import "minions_rails/css/text-align-!md";
+@import "minions_rails/css/text-align-!sm";
+@import "minions_rails/css/text-align-!xs";
+
+@import "minions_rails/css/text-decoration_";
+
+@import "minions_rails/css/text-decoration";
+
+@import "minions_rails/css/text-transform_";
+
+@import "minions_rails/css/text-transform";
+
+@import "minions_rails/css/top";
+
+@import "minions_rails/css/transition-duration";
+
+@import "minions_rails/css/transition-property";
+
+@import "minions_rails/css/transition-timing-function";
+
+@import "minions_rails/css/visibility";
+@import "minions_rails/css/visibility-mn";
+@import "minions_rails/css/visibility-xs";
+@import "minions_rails/css/visibility-sm";
+@import "minions_rails/css/visibility-md";
+@import "minions_rails/css/visibility-lg";
+@import "minions_rails/css/visibility-xl";
+@import "minions_rails/css/visibility-!xl";
+@import "minions_rails/css/visibility-!lg";
+@import "minions_rails/css/visibility-!md";
+@import "minions_rails/css/visibility-!sm";
+@import "minions_rails/css/visibility-!xs";
+
+@import "minions_rails/css/width";
+@import "minions_rails/css/width-mn";
+@import "minions_rails/css/width-xs";
+@import "minions_rails/css/width-sm";
+@import "minions_rails/css/width-md";
+@import "minions_rails/css/width-lg";
+@import "minions_rails/css/width-xl";
+@import "minions_rails/css/width-!xl";
+@import "minions_rails/css/width-!lg";
+@import "minions_rails/css/width-!md";
+@import "minions_rails/css/width-!sm";
+@import "minions_rails/css/width-!xs";
+
+@import "minions_rails/css/z-index";
