@@ -9,4 +9,8 @@ class PagesController < ApplicationController
   def css_production
     render layout: "css_production"
   end
+
+  def scss_development
+    render layout: "scss_development"
+  end
 end

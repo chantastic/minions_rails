@@ -11,4 +11,5 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w(
   css_development.css
   css_production.css
+  scss_development.css
 )
