@@ -3,21 +3,21 @@
 /* color design by @mrmrs. https://github.com/mrmrs/colors */
 
 @media (max-width: #{$xs - 1}px) {
-  .gc-white\@\!xs   { background-color: #ffffff }
-  .gc-navy\@\!xs    { background-color: #001f3f }
-  .gc-blue\@\!xs    { background-color: #0074d9 }
-  .gc-aqua\@\!xs    { background-color: #7fdbff }
-  .gc-teal\@\!xs    { background-color: #39cccc }
-  .gc-olive\@\!xs   { background-color: #3d9970 }
-  .gc-green\@\!xs   { background-color: #2ecc40 }
-  .gc-lime\@\!xs    { background-color: #01ff70 }
-  .gc-yellow\@\!xs  { background-color: #ffdc00 }
-  .gc-orange\@\!xs  { background-color: #ff851b }
-  .gc-red\@\!xs     { background-color: #ff4136 }
-  .gc-maroon\@\!xs  { background-color: #85144b }
-  .gc-fuchsia\@\!xs { background-color: #f012be }
-  .gc-purple\@\!xs  { background-color: #b10dc9 }
-  .gc-gray\@\!xs    { background-color: #aaaaaa }
-  .gc-silver\@\!xs  { background-color: #dddddd }
-  .gc-black\@\!xs   { background-color: #111111 }
+  .gc-white\@\!xs   { background-color: $white }
+  .gc-navy\@\!xs    { background-color: $navy }
+  .gc-blue\@\!xs    { background-color: $blue }
+  .gc-aqua\@\!xs    { background-color: $aqua }
+  .gc-teal\@\!xs    { background-color: $teal }
+  .gc-olive\@\!xs   { background-color: $olive }
+  .gc-green\@\!xs   { background-color: $green }
+  .gc-lime\@\!xs    { background-color: $lime }
+  .gc-yellow\@\!xs  { background-color: $yellow }
+  .gc-orange\@\!xs  { background-color: $orange }
+  .gc-red\@\!xs     { background-color: $red }
+  .gc-maroon\@\!xs  { background-color: $maroon }
+  .gc-fuchsia\@\!xs { background-color: $fuchsia }
+  .gc-purple\@\!xs  { background-color: $purple }
+  .gc-gray\@\!xs    { background-color: $gray }
+  .gc-silver\@\!xs  { background-color: $silver }
+  .gc-black\@\!xs   { background-color: $black }
 }

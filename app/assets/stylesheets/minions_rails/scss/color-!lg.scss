@@ -3,21 +3,21 @@
 /* color design by @mrmrs. https://github.com/mrmrs/colors */
 
 @media (max-width: #{$lg - 1}px) {
-  .c-white\@\!lg   { color: #ffffff }
-  .c-navy\@\!lg    { color: #001f3f }
-  .c-blue\@\!lg    { color: #0074d9 }
-  .c-aqua\@\!lg    { color: #7fdbff }
-  .c-teal\@\!lg    { color: #39cccc }
-  .c-olive\@\!lg   { color: #3d9970 }
-  .c-green\@\!lg   { color: #2ecc40 }
-  .c-lime\@\!lg    { color: #01ff70 }
-  .c-yellow\@\!lg  { color: #ffdc00 }
-  .c-orange\@\!lg  { color: #ff851b }
-  .c-red\@\!lg     { color: #ff4136 }
-  .c-maroon\@\!lg  { color: #85144b }
-  .c-fuchsia\@\!lg { color: #f012be }
-  .c-purple\@\!lg  { color: #b10dc9 }
-  .c-gray\@\!lg    { color: #aaaaaa }
-  .c-silver\@\!lg  { color: #dddddd }
-  .c-black\@\!lg   { color: #111111 }
+  .c-white\@\!lg   { color: $white }
+  .c-navy\@\!lg    { color: $navy }
+  .c-blue\@\!lg    { color: $blue }
+  .c-aqua\@\!lg    { color: $aqua }
+  .c-teal\@\!lg    { color: $teal }
+  .c-olive\@\!lg   { color: $olive }
+  .c-green\@\!lg   { color: $green }
+  .c-lime\@\!lg    { color: $lime }
+  .c-yellow\@\!lg  { color: $yellow }
+  .c-orange\@\!lg  { color: $orange }
+  .c-red\@\!lg     { color: $red }
+  .c-maroon\@\!lg  { color: $maroon }
+  .c-fuchsia\@\!lg { color: $fuchsia }
+  .c-purple\@\!lg  { color: $purple }
+  .c-gray\@\!lg    { color: $gray }
+  .c-silver\@\!lg  { color: $silver }
+  .c-black\@\!lg   { color: $black }
 }

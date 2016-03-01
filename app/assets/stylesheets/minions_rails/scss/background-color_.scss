@@ -2,20 +2,20 @@
 
 /* color design by @mrmrs. https://github.com/mrmrs/colors */
 
-.gc_white   > * { background-color: #ffffff }
-.gc_navy    > * { background-color: #001f3f }
-.gc_blue    > * { background-color: #0074d9 }
-.gc_aqua    > * { background-color: #7fdbff }
-.gc_teal    > * { background-color: #39cccc }
-.gc_olive   > * { background-color: #3d9970 }
-.gc_green   > * { background-color: #2ecc40 }
-.gc_lime    > * { background-color: #01ff70 }
-.gc_yellow  > * { background-color: #ffdc00 }
-.gc_orange  > * { background-color: #ff851b }
-.gc_red     > * { background-color: #ff4136 }
-.gc_maroon  > * { background-color: #85144b }
-.gc_fuchsia > * { background-color: #f012be }
-.gc_purple  > * { background-color: #b10dc9 }
-.gc_gray    > * { background-color: #aaaaaa }
-.gc_silver  > * { background-color: #dddddd }
-.gc_black   > * { background-color: #111111 }
+.gc_white   > * { background-color: $white }
+.gc_navy    > * { background-color: $navy }
+.gc_blue    > * { background-color: $blue }
+.gc_aqua    > * { background-color: $aqua }
+.gc_teal    > * { background-color: $teal }
+.gc_olive   > * { background-color: $olive }
+.gc_green   > * { background-color: $green }
+.gc_lime    > * { background-color: $lime }
+.gc_yellow  > * { background-color: $yellow }
+.gc_orange  > * { background-color: $orange }
+.gc_red     > * { background-color: $red }
+.gc_maroon  > * { background-color: $maroon }
+.gc_fuchsia > * { background-color: $fuchsia }
+.gc_purple  > * { background-color: $purple }
+.gc_gray    > * { background-color: $gray }
+.gc_silver  > * { background-color: $silver }
+.gc_black   > * { background-color: $black }

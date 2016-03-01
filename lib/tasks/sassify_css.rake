@@ -63,6 +63,74 @@ namespace :minions_rails do
     sh "for file in #{scss_dir}/*-xl.scss; do sed -i '' 's/1200px/\#\{\$xl\}px/' ${file}; done"
   end
 
+  task :variablize_white do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#ffffff/\$white/' ${file}; done"
+  end
+
+  task :variablize_navy do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#001f3f/\$navy/' ${file}; done"
+  end
+
+  task :variablize_blue do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#0074d9/\$blue/' ${file}; done"
+  end
+
+  task :variablize_aqua do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#7fdbff/\$aqua/' ${file}; done"
+  end
+
+  task :variablize_teal do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#39cccc/\$teal/' ${file}; done"
+  end
+
+  task :variablize_olive do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#3d9970/\$olive/' ${file}; done"
+  end
+
+  task :variablize_green do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#2ecc40/\$green/' ${file}; done"
+  end
+
+  task :variablize_lime do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#01ff70/\$lime/' ${file}; done"
+  end
+
+  task :variablize_yellow do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#ffdc00/\$yellow/' ${file}; done"
+  end
+
+  task :variablize_orange do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#ff851b/\$orange/' ${file}; done"
+  end
+
+  task :variablize_red do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#ff4136/\$red/' ${file}; done"
+  end
+
+  task :variablize_maroon do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#85144b/\$maroon/' ${file}; done"
+  end
+
+  task :variablize_fuchsia do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#f012be/\$fuchsia/' ${file}; done"
+  end
+
+  task :variablize_purple do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#b10dc9/\$purple/' ${file}; done"
+  end
+
+  task :variablize_gray do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#aaaaaa/\$gray/' ${file}; done"
+  end
+
+  task :variablize_silver do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#dddddd/\$silver/' ${file}; done"
+  end
+
+  task :variablize_black do
+    sh "for file in #{scss_dir}/*color*.scss; do sed -i '' 's/\#111111/\$black/' ${file}; done"
+  end
+
   desc "Create creates a sass file for every css file in the /css directory."
   task sassify_css: [
     "dump",
@@ -78,6 +146,23 @@ namespace :minions_rails do
     "variablize_sub_large",
     "variablize_large",
     "variablize_sub_xlarge",
-    "variablize_xlarge"
+    "variablize_xlarge",
+    "variablize_white",
+    "variablize_navy",
+    "variablize_blue",
+    "variablize_aqua",
+    "variablize_teal",
+    "variablize_olive",
+    "variablize_green",
+    "variablize_lime",
+    "variablize_yellow",
+    "variablize_orange",
+    "variablize_red",
+    "variablize_maroon",
+    "variablize_fuchsia",
+    "variablize_purple",
+    "variablize_gray",
+    "variablize_silver",
+    "variablize_black",
   ]
 end

@@ -87,6 +87,8 @@ This is an easy setup to get you up and running with custom breakpoints. But it'
 
 * **Create** a `custom-minions.scss` file
   + **Assign** expected breakpoint variables `$xl`, `$lg`, `$md`, `$sm`, and `$xs`
+  + **Assign** colors, if using any of the `color` files.
+    -  `$white`, `$navy`, `$blue`, `$aqua`, `$teal`, `$olive`, `$green`, `$lime`, `$yellow`, `$orange`, `$red`, `$maroon`, `$fuchsia`, `$purple`, `$gray`, `$silver`, `$black`
   + **Import** any and all minions files from `minions_rails/scss/`
 * **Require** `custom-minions` into your `application.css` file
 
@@ -96,6 +98,24 @@ $lg:  960;
 $md:  720;
 $sm:  600;
 $xs:  480;
+
+$white: #ffffff;
+$navy: #001f3f;
+$blue: #0074d9;
+$aqua: #7fdbff;
+$teal: #39cccc;
+$olive: #3d9970;
+$green: #2ecc40;
+$lime: #01ff70;
+$yellow: #ffdc00;
+$orange: #ff851b;
+$red: #ff4136;
+$maroon: #85144b;
+$fuchsia: #f012be;
+$purple: #b10dc9;
+$gray: #aaaaaa;
+$silver: #dddddd;
+$black: #111111;
 
 @import "minions_rails/development-scss";
 ```
@@ -122,6 +142,24 @@ $lg:  960;
 $md:  720;
 $sm:  600;
 $xs:  480;
+
+$white: #ffffff;
+$navy: #001f3f;
+$blue: #0074d9;
+$aqua: #7fdbff;
+$teal: #39cccc;
+$olive: #3d9970;
+$green: #2ecc40;
+$lime: #01ff70;
+$yellow: #ffdc00;
+$orange: #ff851b;
+$red: #ff4136;
+$maroon: #85144b;
+$fuchsia: #f012be;
+$purple: #b10dc9;
+$gray: #aaaaaa;
+$silver: #dddddd;
+$black: #111111;
 
 @import "minions_rails/scss/padding";
 @import "minions_rails/scss/padding-mn";
