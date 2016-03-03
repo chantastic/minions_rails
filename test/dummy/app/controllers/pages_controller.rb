@@ -17,4 +17,8 @@ class PagesController < ApplicationController
   def scss_production
     render layout: "scss_production"
   end
+
+  def at_mixin
+    render layout: "at_mixin"
+  end
 end

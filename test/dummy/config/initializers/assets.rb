@@ -13,4 +13,5 @@ Rails.application.config.assets.precompile += %w(
   css_production.css
   scss_development.css
   scss_production.css
+  at_mixin.css
 )
