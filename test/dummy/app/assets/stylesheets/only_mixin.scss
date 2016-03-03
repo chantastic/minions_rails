@@ -1,0 +1,16 @@
+$xl: 1200 !default;
+$lg:  960 !default;
+$md:  720 !default;
+$sm:  600 !default;
+$xs:  480 !default;
+
+@import "minions_rails/mixins/at";
+@import "minions_rails/mixins/only";
+
+body {
+  @include only(mn) { background-color: aqua }
+  @include only(xs) { background-color: red }
+  @include only(sm) { background-color: blue }
+  @include only(md) { background-color: orange }
+  @include only(lg) { background-color: purple }
+}

@@ -25,4 +25,8 @@ class PagesController < ApplicationController
   def before_mixin
     render layout: "before_mixin"
   end
+
+  def only_mixin
+    render layout: "only_mixin"
+  end
 end
