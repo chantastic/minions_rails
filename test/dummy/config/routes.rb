@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "/pages/scss_production", to: "pages#scss_production"
 
   get "/pages/at_mixin", to: "pages#at_mixin"
+  get "/pages/before_mixin", to: "pages#before_mixin"
 
   mount MinionsRails::Engine => "/minions_rails"
 end
