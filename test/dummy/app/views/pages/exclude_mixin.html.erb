@@ -1,0 +1,32 @@
+Play with the window with to see the following code in action:
+
+<style>
+  pre {
+    background-color: #333;
+    color: #eee;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+</style>
+
+<pre>
+<code>
+$xl: 1200 !default;
+$lg:  960 !default;
+$md:  720 !default;
+$sm:  600 !default;
+$xs:  480 !default;
+
+@import "minions_rails/mixins/exclude";
+
+.red-except-when-xs { @include exclude(xs) { color: red } }
+.red-except-when-sm { @include exclude(sm) { color: red } }
+.red-except-when-md { @include exclude(md) { color: red } }
+.red-except-when-lg { @include exclude(lg) { color: red } }
+</code>
+</pre>
+
+<div class="red-except-when-xs">red except when 'xs'</div>
+<div class="red-except-when-sm">red except when 'sm'</div>
+<div class="red-except-when-md">red except when 'md'</div>
+<div class="red-except-when-lg">red except when 'lg'</div>

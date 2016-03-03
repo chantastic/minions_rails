@@ -12,6 +12,11 @@ This is a Rails wrapper for the [minions.css](https://github.com/chantastic/mini
   1. [CSS (production)](#css-production)
   1. [SCSS (development)](#scss-development)
   1. [SCSS (production)](#scss-production)
+1. [Mixins](#mixins)
+  1. [at](#at)
+  1. [before](#before)
+  1. [only](#only)
+  1. [exclude](#exclude)
 
 ## Installation
 **Add** `minions_rails` to your Gemfile and bundle:
@@ -171,6 +176,32 @@ $black: #111111;
 
 /* ...and whatever else you need */
 ```
+
+## Mixins
+Interfaces ships with a bunch of mixins so you can style your classes with the same constraints minions uses.
+
+### at()
+[The code](https://github.com/chantastic/minions_rails/tree/master/app/assets/stylesheets/minions_rails/mixins/at.scss)  
+[Example use](https://github.com/chantastic/minions_rails/tree/master/test/dummy/app/assets/stylesheets/at_mixin.scss)  
+
+---
+
+### before()
+[The code](https://github.com/chantastic/minions_rails/tree/master/app/assets/stylesheets/minions_rails/mixins/before.scss)  
+[Example use](https://github.com/chantastic/minions_rails/tree/master/test/dummy/app/assets/stylesheets/before_mixin.scss)  
+
+---
+
+### only()
+[The code](https://github.com/chantastic/minions_rails/tree/master/app/assets/stylesheets/minions_rails/mixins/only.scss)  
+[Example use](https://github.com/chantastic/minions_rails/tree/master/test/dummy/app/assets/stylesheets/only_mixin.scss)  
+
+---
+
+### exclude()
+[The code](https://github.com/chantastic/minions_rails/tree/master/app/assets/stylesheets/minions_rails/mixins/exclude.scss)  
+[Example use](https://github.com/chantastic/minions_rails/tree/master/test/dummy/app/assets/stylesheets/exclude_mixin.scss)  
+
 
 ---
 

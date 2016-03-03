@@ -1,0 +1,8 @@
+@mixin at($name) {
+  @if $name == 'mn' { @media (min-width: 0px) { @content } }
+  @if $name == 'xs' { @media (min-width: #{$xs}px) { @content } }
+  @if $name == 'sm' { @media (min-width: #{$sm}px) { @content } }
+  @if $name == 'md' { @media (min-width: #{$md}px) { @content } }
+  @if $name == 'lg' { @media (min-width: #{$lg}px) { @content } }
+  @if $name == 'xl' { @media (min-width: #{$xl}px) { @content } }
+}

@@ -1,0 +1,15 @@
+$xl: 1200 !default;
+$lg:  960 !default;
+$md:  720 !default;
+$sm:  600 !default;
+$xs:  480 !default;
+
+@import "minions_rails/mixins/before";
+
+body {
+  @include before(xl) { background-color: yellow }
+  @include before(lg) { background-color: purple }
+  @include before(md) { background-color: orange }
+  @include before(sm) { background-color: blue }
+  @include before(xs) { background-color: red }
+}

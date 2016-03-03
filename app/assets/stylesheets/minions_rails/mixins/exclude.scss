@@ -1,0 +1,6 @@
+@mixin exclude($name) {
+  @if $name == 'xs' { @media (max-width: #{$xs - 1}px), (min-width: #{$sm}px) { @content } }
+  @if $name == 'sm' { @media (max-width: #{$sm - 1}px), (min-width: #{$md}px) { @content } }
+  @if $name == 'md' { @media (max-width: #{$md - 1}px), (min-width: #{$lg}px) { @content } }
+  @if $name == 'lg' { @media (max-width: #{$lg - 1}px), (min-width: #{$xl}px) { @content } }
+}

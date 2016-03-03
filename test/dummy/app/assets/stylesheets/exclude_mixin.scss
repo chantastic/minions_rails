@@ -1,0 +1,12 @@
+$xl: 1200 !default;
+$lg:  960 !default;
+$md:  720 !default;
+$sm:  600 !default;
+$xs:  480 !default;
+
+@import "minions_rails/mixins/exclude";
+
+.red-except-when-xs { @include exclude(xs) { color: red } }
+.red-except-when-sm { @include exclude(sm) { color: red } }
+.red-except-when-md { @include exclude(md) { color: red } }
+.red-except-when-lg { @include exclude(lg) { color: red } }

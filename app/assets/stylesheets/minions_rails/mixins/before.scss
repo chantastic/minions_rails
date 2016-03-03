@@ -1,0 +1,7 @@
+@mixin before($name) {
+  @if $name == 'xs' { @media (max-width: #{$xs - 1}px) { @content } }
+  @if $name == 'sm' { @media (max-width: #{$sm - 1}px) { @content } }
+  @if $name == 'md' { @media (max-width: #{$md - 1}px) { @content } }
+  @if $name == 'lg' { @media (max-width: #{$lg - 1}px) { @content } }
+  @if $name == 'xl' { @media (max-width: #{$xl - 1}px) { @content } }
+}

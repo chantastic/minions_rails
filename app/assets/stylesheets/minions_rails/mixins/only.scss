@@ -1,0 +1,7 @@
+@mixin only($name) {
+  @if $name == 'mn' { @media (min-width: 0)        and (max-width: #{$xs - 1}px) { @content } }
+  @if $name == 'xs' { @media (min-width: #{$xs}px) and (max-width: #{$sm - 1}px) { @content } }
+  @if $name == 'sm' { @media (min-width: #{$sm}px) and (max-width: #{$md - 1}px) { @content } }
+  @if $name == 'md' { @media (min-width: #{$md}px) and (max-width: #{$lg - 1}px) { @content } }
+  @if $name == 'lg' { @media (min-width: #{$lg}px) and (max-width: #{$xl - 1}px) { @content } }
+}
