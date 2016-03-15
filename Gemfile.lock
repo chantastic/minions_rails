@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    minions_rails (0.0.4)
-      rails (~> 4.2.5.1)
+    minions_rails (0.0.5)
 
 GEM
   remote: https://rubygems.org/
@@ -113,5 +112,6 @@ PLATFORMS
 
 DEPENDENCIES
   minions_rails!
+  rails (~> 4.2.5.1)
   sass-rails
   sqlite3
